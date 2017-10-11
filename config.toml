@@ -1,4 +1,4 @@
-baseurl = "https://runpodcast.github.io/"
+baseurl = "https://runpodcast.github.io/website/"
 languageCode = "en-us"
 title = "npm run podcast"
 theme = "super"
