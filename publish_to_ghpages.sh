@@ -2,7 +2,8 @@
 
 DIR=$(dirname "$0")
 
-cd $DIR/..
+cd $DIR
+echo "Starting publication to github from ${DIR}"
 
 if [[ $(git status -s) ]]
 then
