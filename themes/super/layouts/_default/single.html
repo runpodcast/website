@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="row">
+  <div class="col-lg-4">
+  </div>
+  <div class="col-lg-8">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    {{ template "_internal/disqus.html" . }}
+  </div>
+</div>
+{{ end }}

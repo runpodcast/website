@@ -1,7 +1,7 @@
-baseurl = "https://runpodcast.github.io/website/"
+baseurl = "https://runpodcast.github.io/"
 languageCode = "en-us"
 title = "npm run podcast"
-theme = "castanet"
+theme = "super"
 googleAnalytics = "UA-2011466-11"
 disqusShortname = "zeroasterisk"
 # themesdir = "../.."
@@ -49,11 +49,11 @@ disqusShortname = "zeroasterisk"
 
 [params]
 site_theme = "blue"
-site_layout = "row"
+site_layout = "grid"
 enable_jumbo = "true"
 # truncate = "100"
 # about_logo = "/img/hugocast.png"
-copyright_notice = "Copyright 2016 [Matt Stratton](https://www.mattstrattion.io)"
+copyright_notice = "Copyright 2016 [Alan Blount](https://www.mattstrattion.io)"
 itunes_subscribe = "http://itunes.apple.com/us/podcast/npmrunpodcast/id773888088?mt=2&uo=4&at=11lsCi"
 android_subscribe = "http://subscribeonandroid.com/feeds.podtrac.com/VGAulpN7MY1U"
 google_play_subscribe = "https://goo.gl/app/playmusic?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&link=https://play.google.com/music/m/Ihj4yege3lfmp3vs5yoopgxijpi?t%3DArrested_DevOps"
@@ -63,14 +63,15 @@ pocketcasts_subscribe = "http://pcasts.in/feed/feeds.soundcloud.com/users/soundc
 mailchimp_subscribe = "//npmrunpodcast.us3.list-manage.com/subscribe/post?u=5e4cbcac996bb9df25f970a89&amp;id=154fa76bcc"
 #rss_subscribe = "http://feed.com/myfeed" #only set this if you don't want to use the built-in feed
 description = "Aquire superpowers"
-media_prefix = "https://media.blubrry.com/npmrunpodcast/content.blubrry.com/npmrunpodcast/"
+# media_prefix = "https://media.blubrry.com/npmrunpodcast/content.blubrry.com/npmrunpodcast/"
+media_prefix = "https://runpodcast.github.io/website/"
   [params.feed]
-    feed_copyright = "Copyright 2016 Matt Stratton" #do not use markdown in this field; it is used in the feed
+    feed_copyright = "Copyright 2016 Alan Blount" #do not use markdown in this field; it is used in the feed
     itunes_subtitle = "The best podcast ever" #no markdown or HTML
-    itunes_author = "Matt Stratton" #no markdown or HTML
+    itunes_author = "Alan Blount" #no markdown or HTML
     itunes_summary = "The HugoCast is the best podcast you've ever seen. You will learn everything you ever needed to know about podcasting from the most inspiring experts to ever show up on the whole internet." # Limited to 4000 characters or less, plain text, no HTML
-    itunes_owner_name = "Matt Stratton"
-    itunes_owner_email = "matt.stratton@gmail.com" #contains the e-mail address that will be used to contact the owner of the Podcast for communication specifically about their Podcast on iTunes. It will not be publicly displayed on iTunes.
+    itunes_owner_name = "Alan Blount"
+    itunes_owner_email = "Alan.Blount@gmail.com" #contains the e-mail address that will be used to contact the owner of the Podcast for communication specifically about their Podcast on iTunes. It will not be publicly displayed on iTunes.
     itunes_image = "https://www.npmrunpodcast.com/img/ado-podcast-logo.png" #fqdn to the image art for your podcast
     itunes_top_category = "Technology"
     itunes_first_sub_category = "Software How-To"
@@ -90,24 +91,24 @@ media_prefix = "https://media.blubrry.com/npmrunpodcast/content.blubrry.com/npmr
     linkedin = "mattstratton"
 
   [params.authors]
-    [params.authors.Matt]
-      name	= "Matt Stratton"
-      thumbnail = "img/host/matt.png"
-      bio = "Matt Stratton is a solutions architect at Chef, where he demonstrates how Chef’s automation platform provides speed and flexibility to clients’ infrastructure. He is devoted to concepts like Continuous Delivery and Infrastructure as Code, and his license plate actually says “DevOps”. He lives in Chicago and has an unhealthy obsession with Doctor Who, Firefly, and Game of Thrones. And whiskey."
-      [params.authors.Matt.social]
+    [params.authors.Alan]
+      name	= "Alan Blount"
+      thumbnail = "img/host/Alan.png"
+      bio = "Alan Blount blah..."
+      [params.authors.Alan.social]
         github = "mattstratton"
-        facebook = "matt.stratton"
+        facebook = "Alan.Blount"
         twitter = "mattstratton"
         linkedin = "mattstratton"
         homepage = "https://www.mattstratton.io"
         pinterest = "mattstratton"
         instagram = "instagram"
         youtube = "mattstratton"
-    [params.authors.Trevor]
-			name = "Trevor Hess"
-			thumbnail = "https://www.npmrunpodcast.com/img/trevor.png"
+    [params.authors.Aaron]
+			name = "Aaron Johnson"
+			thumbnail = "https://www.npmrunpodcast.com/img/Aaron.png"
 			bio = ""
-				[params.authors.Trevor.social]
+				[params.authors.Aaron.social]
 					twitter = "trevorghess"
     [params.authors.Bridget]
       name = "Bridget Kromhout"

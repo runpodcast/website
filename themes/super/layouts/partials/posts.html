@@ -1,0 +1,21 @@
+<!--
+TODO maybe move to this
+https://github.com/mattstratton/castanet/blob/master/layouts/partials/grid.html
+-->
+<div class="card-columns">
+  {{ range .Data.Pages }}
+  <div class="card">
+    <a href="{{ .Permalink }}" title="">
+      <img class="card-img-top img-responsive" src="{{ .Params.image | absURL }}" alt="" alt="Card image cap">
+    </a>
+    <div class="card-body card-block">
+      <h4 class="card-title">
+        <a href="{{ .Permalink }}" title="">
+          {{ .Title }}
+        </a>
+      </h4>
+      <p class="card-text">{{ .Summary }}</p>
+    </div>
+  </div>
+  {{ end }}
+</div>

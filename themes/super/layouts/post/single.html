@@ -1,0 +1,37 @@
+{{ define "main" }}
+<div class="row">
+  <div class="col-lg-8">
+    <h1 id="ep-title">{{ .Title }}</h1>
+    <p id="ep-subtitle" class="lead text-muted">{{ .Params.subtitle }}</p>
+    {{ .Content }}
+    <img id="ep-img" class="img-responsive" src="{{ .Params.image | absURL }}" />
+    <p>TODO links to hosts</p>
+    <p>TODO links to guests</p>
+    <p>TODO links to sponsors</p>
+    {{ template "_internal/disqus.html" . }}
+  </div>
+  <div class="col-lg-4">
+    {{- with .Params.podcast_file -}}
+    <!-- audio src="{{ $.Site.Params.media_prefix }}{{ . }}" preload="auto" / -->
+    <script type="text/javascript">
+      // https://github.com/podigee/podigee-podcast-player/blob/master/docs/configuration.md
+      window.playerConfiguration = {
+        "episode": {
+          "media": {"mp3": $("#ep-download").attr("href")},
+          "title": $("#ep-title").text(),
+          "subtitle": $("#ep-subtitle").text(),
+          "coverUrl": $("#ep-img").attr("src"),
+        }
+      };
+    </script>
+    <script class="podigee-podcast-player" src="https://cdn.podigee.com/podcast-player/javascripts/podigee-podcast-player.js" data-configuration="playerConfiguration"></script>
+    <a
+      id="ep-download"
+      other_href="{{ $.Site.Params.media_prefix }}{{ . }}"
+      href="{{ . | absURL }}"
+      class="btn btn-link btn-sm"
+      ><i class="fa fa-download"></i> download</a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
