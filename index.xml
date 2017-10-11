@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>npm run podcast</title>
-    <link>https://runpodcast.github.io/</link>
+    <link>https://runpodcast.github.io/website/</link>
     <description>Recent content on npm run podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://runpodcast.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://runpodcast.github.io/website/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Auth entication orization Beginner Intro</title>
-      <link>https://runpodcast.github.io/post/e001-auth-beginner/</link>
+      <link>https://runpodcast.github.io/website/post/e001-auth-beginner/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://runpodcast.github.io/post/e001-auth-beginner/</guid>
+      <guid>https://runpodcast.github.io/website/post/e001-auth-beginner/</guid>
       <description>Learn about your &amp;ldquo;auth&amp;rdquo; - both &amp;ldquo;authentication&amp;rdquo; and &amp;ldquo;authorization&amp;rdquo; - some of the pitfalls and best practices about how to make this very important part of your application.
 You need to get this right&amp;hellip; But it&amp;rsquo;s not that hard, these days.
 (more desc. coming)</description>

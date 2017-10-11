@@ -3,26 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://runpodcast.github.io/post/e001-auth-beginner/</loc>
+    <loc>https://runpodcast.github.io/website/post/e001-auth-beginner/</loc>
   </url>
   
   <url>
-    <loc>https://runpodcast.github.io/categories/</loc>
+    <loc>https://runpodcast.github.io/website/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://runpodcast.github.io/post/</loc>
+    <loc>https://runpodcast.github.io/website/post/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://runpodcast.github.io/tags/</loc>
+    <loc>https://runpodcast.github.io/website/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://runpodcast.github.io/</loc>
+    <loc>https://runpodcast.github.io/website/</loc>
     <priority>0</priority>
   </url>
   
