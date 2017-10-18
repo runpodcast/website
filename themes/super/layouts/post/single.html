@@ -5,9 +5,11 @@
     <p id="ep-subtitle" class="lead text-muted">{{ .Params.subtitle }}</p>
     {{ .Content }}
     <img id="ep-img" class="img-responsive" src="{{ .Params.image | absURL }}" />
-    <p>TODO links to hosts</p>
-    <p>TODO links to guests</p>
-    <p>TODO links to sponsors</p>
+    <div class="alert alert-outline">
+      Hosts:
+      <a href="" class="btn btn-sm btn-link">Alan</a>
+      <a href="" class="btn btn-sm btn-link">Aaron</a>
+    </div>
     {{ template "_internal/disqus.html" . }}
   </div>
   <div class="col-lg-4">
