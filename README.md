@@ -18,3 +18,13 @@ cp ~/Downloads/0.1.2-auth-mid.jpg static/post/
 hugo new post/e0-1-2-auth-mid.md
 vim content/post/e0-1-2-auth-mid.md
 ```
+
+### Deploy
+
+Install [this tool](https://github.com/bep/bego.io) to make deploy to s3 a snap.
+
+Then use `hugo` to build the static site and `s3deploy` to put it onto s3 (assuming you have permission)
+
+```
+hugo && s3deploy -source=public/ -region=us-east-1 -bucket=npmrunpodcast.com -key=****** -secret=******
+```

@@ -4,11 +4,11 @@ PublishDate = "2017-10-05T04:09:45-05:00"
 podcast_file = "post/0.1.3-auth-sr.mp3"
 podcast_duration = "1:08:22"
 podcast_bytes = "999" # the length of the episode in bytes
-episode_image = "post/0.1.3-auth-sr.jpg"
+episode_image = "post/0.1.3-auth-sr.png"
 episode = "1"
 title = "Auth entication orization Sr Level"
 subtitle = "A front door for learning about your application's front door"
-image = "post/0.1.3-auth-sr.jpg"
+image = "post/0.1.3-auth-sr.png"
 aliases = ["/0.1.3"]
 explicit = "no"
 +++
