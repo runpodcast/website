@@ -4,11 +4,11 @@ PublishDate = "2017-10-05T04:09:45-05:00"
 podcast_file = "post/0.1.2-auth-mid.mp3"
 podcast_duration = "1:08:22"
 podcast_bytes = "999" # the length of the episode in bytes
-episode_image = "post/0.1.2-auth-mid.png"
+episode_image = "post/0.1.2-auth-session-oauth-jwts.png"
 episode = "1"
 title = "Auth entication orization Mid Level"
 subtitle = "A front door for learning about your application's front door"
-image = "post/0.1.2-auth-mid.png"
+image = "post/0.1.2-auth-session-oauth-jwts.png"
 aliases = ["/0.1.2"]
 explicit = "no"
 +++
