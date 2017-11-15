@@ -1,6 +1,7 @@
 +++
 Description = "Auth.entication.orization. - Beginner/Intro"
 PublishDate = "2017-10-05T04:09:45-05:00"
+date = "2017-10-05"
 podcast_file = "post/0.1.1-auth-beginner.m4a"
 podcast_duration = "1:08:22"
 podcast_bytes = "999" # the length of the episode in bytes
