@@ -8,9 +8,9 @@ disqusShortname = "zeroasterisk"
 
 
 [permalinks]
-	# page = "/:filename/"
-	about = "/:filename/"
-	episode = "/:filename/"
+  # page = "/:filename/"
+  about = "/:filename/"
+  episode = "/:filename/"
 
 
 # The theme supports menus with up to one submenu per menu item
@@ -21,31 +21,36 @@ disqusShortname = "zeroasterisk"
     identifier = "about"
     url = "about"
 
-[[Menu.Main]]
-    name = "Contact"
-    identifier = "contact"
-    url = "contact"
+# [[Menu.Main]]
+#     name = "Contact"
+#     identifier = "contact"
+#     url = "contact"
+#
+# [[Menu.Main]]
+#     name = "Guests"
+#     identifier = "guests"
+#     url = "guest"
 
 [[Menu.Main]]
-    name = "Guests"
-    identifier = "guests"
-    url = "guest"
+    name = "iTunes Subscribe"
+    identifier = "itunes"
+    url = "https://itunes.apple.com/us/podcast/npm-run-podcast/id1313639566"
 
-[[Menu.Main]]
-    name = "Resources"
-    identifier = "resources"
-    url = "#!"
-
-[[Menu.Main]]
-    name = "Books"
-    identifier = "books"
-    url = "books"
-    parent = "resources"
-[[Menu.Main]]
-    name = "Podcasts"
-    identifier = "podcasts"
-    url = "books"
-    parent = "resources"
+# [[Menu.Main]]
+#     name = "Resources"
+#     identifier = "resources"
+#     url = "#!"
+#
+# [[Menu.Main]]
+#     name = "Books"
+#     identifier = "books"
+#     url = "books"
+#     parent = "resources"
+# [[Menu.Main]]
+#     name = "Podcasts"
+#     identifier = "podcasts"
+#     url = "books"
+#     parent = "resources"
 
 [params]
 site_theme = "blue"
@@ -53,77 +58,59 @@ site_layout = "grid"
 enable_jumbo = "true"
 # truncate = "100"
 about_logo = "npmrunpodcast-logo.png"
-copyright_notice = "Copyright 2016 [Alan Blount](https://www.mattstrattion.io)"
-itunes_subscribe = "http://itunes.apple.com/us/podcast/npmrunpodcast/id773888088?mt=2&uo=4&at=11lsCi"
-android_subscribe = "http://subscribeonandroid.com/feeds.podtrac.com/VGAulpN7MY1U"
-google_play_subscribe = "https://goo.gl/app/playmusic?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&link=https://play.google.com/music/m/Ihj4yege3lfmp3vs5yoopgxijpi?t%3DArrested_DevOps"
-sticher_subscribe = "http://www.stitcher.com/podcast/npmrunpodcast-2/npmrunpodcast"
-soundcloud_subscribe = "http://feeds.soundcloud.com/users/soundcloud:users:203144248/sounds.rss"
-pocketcasts_subscribe = "http://pcasts.in/feed/feeds.soundcloud.com/users/soundcloud:users:203144248/sounds.rss"
-mailchimp_subscribe = "//npmrunpodcast.us3.list-manage.com/subscribe/post?u=5e4cbcac996bb9df25f970a89&amp;id=154fa76bcc"
+copyright_notice = "Copyright 2017 [Alan Blount](https://zeroasterisk.com) [Aaron Johnson](https://github.com/TopShelfRobot)"
+itunes_subscribe = "https://itunes.apple.com/us/podcast/npm-run-podcast/id1313639566"
+android_subscribe = ""
+google_play_subscribe = ""
+sticher_subscribe = ""
+soundcloud_subscribe = ""
+pocketcasts_subscribe = ""
+mailchimp_subscribe = ""
 #rss_subscribe = "http://feed.com/myfeed" #only set this if you don't want to use the built-in feed
 description = "Aquire superpowers"
 # media_prefix = "https://media.blubrry.com/npmrunpodcast/content.blubrry.com/npmrunpodcast/"
-media_prefix = "https://runpodcast.github.io/website/"
+media_prefix = "https://npmrunpodcast.com/"
   [params.feed]
-    feed_copyright = "Copyright 2016 Alan Blount" #do not use markdown in this field; it is used in the feed
-    itunes_subtitle = "The best podcast ever" #no markdown or HTML
-    itunes_author = "Alan Blount" #no markdown or HTML
+    feed_copyright = "Copyright 2017 Alan Blount" #do not use markdown in this field; it is used in the feed
+    itunes_subtitle = "Informal tech talk for beginners, mids, and senior devs" #no markdown or HTML
+    itunes_author = "Alan n Aaron" #no markdown or HTML
     itunes_summary = "Talk about web dev & devops: for beginners, mids, and seniors. Hang out with us and lets talk tech."
-    itunes_owner_name = "Alan Blount"
+    itunes_owner_name = "Alan n Aaron"
     itunes_owner_email = "alan@zeroasterisk.com" #contains the e-mail address that will be used to contact the owner of the Podcast for communication specifically about their Podcast on iTunes. It will not be publicly displayed on iTunes.
-    itunes_image = "http://npmrunpodcast.com/img/npmrunpodcast-logo.png" #fqdn to the image art for your podcast
+    itunes_image = "http://npmrunpodcast.com/img/npmrunpodcast-logo.jpg" #fqdn to the image art for your podcast
     itunes_top_category = "Technology"
     itunes_first_sub_category = "Software How-To"
     itunes_second_sub_category = "Tech News"
 
   [params.social]
     github = "npmrunpodcast"
-    gitlab = "mattstratton"
     facebook = "npmrunpodcast"
-    facebook_admin = "500557137"  # This needs to be a page admin to get domain insights
     twitter = "npmrunpodcast"
     twitter_domain = "npmrunpodcast.com" # This domain shows in twitter cards as "View on `twitter_domain`"
     googleplus = "npmrunpodcast"
-    pinterest = "nozzleio"
-    instagram = "nozzleio"
-    youtube = "npmrunpodcast"
-    linkedin = "mattstratton"
 
   [params.authors]
     [params.authors.Alan]
-      name	= "Alan Blount"
+      name  = "Alan Blount"
       thumbnail = "img/host/Alan.png"
-      bio = "Alan Blount blah..."
+      bio = "Alan Blount blah blah..."
       [params.authors.Alan.social]
-        github = "mattstratton"
+        github = "zeroasterisk"
         facebook = "Alan.Blount"
-        twitter = "mattstratton"
-        linkedin = "mattstratton"
-        homepage = "https://www.mattstratton.io"
-        pinterest = "mattstratton"
-        instagram = "instagram"
-        youtube = "mattstratton"
+        twitter = "zeroasterisk"
+        linkedin = "zeroasterisk"
+        homepage = "https://zeroasterisk.com"
+        pinterest = "zeroasterisk"
+        instagram = "zeroasterisk"
+        youtube = "zeroasterisk"
     [params.authors.Aaron]
-			name = "Aaron Johnson"
-			thumbnail = "https://www.npmrunpodcast.com/img/Aaron.png"
-			bio = ""
-				[params.authors.Aaron.social]
-					twitter = "trevorghess"
-    [params.authors.Bridget]
-      name = "Bridget Kromhout"
-      thumbnail = "https://www.npmrunpodcast.com/img/Bridget.png"
-      bio = ""
-      [params.authors.Bridget.social]
-        twitter = "bridgetkromhout"
+      name = "Aaron Johnson"
+      thumbnail = "https://www.npmrunpodcast.com/img/Aaron.png"
+      bio = "Arron Johnson blah blah..."
+        [params.authors.Aaron.social]
+          twitter = "ummm"
 
     [params.links]
       [params.links.ado]
         name = "npm run podcast"
-        url = "https://www.npmrunpodcast.com"
-      [params.links.ffs]
-        name = "Food Fight Show"
-        url = "https://foodfightshow.org"
-      [params.links.sdt]
-        name = "Software Defined Talk"
-        url = "https://cote.io/podcasts/sdt/"
+        url = "https://npmrunpodcast.com"
