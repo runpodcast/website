@@ -3,30 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://runpodcast.github.io/website/post/e001-auth-beginner/</loc>
+    <loc>https://npmrunpodcast.com/post/e011-auth-beginner/</loc>
+    <lastmod>2017-10-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://runpodcast.github.io/website/categories/</loc>
+    <loc>https://npmrunpodcast.com/post/e012-auth-mid/</loc>
+    <lastmod>2017-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://npmrunpodcast.com/post/e013-auth-sr/</loc>
+    <lastmod>2017-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://npmrunpodcast.com/post/e021-idea-to-plan-beginner/</loc>
+    <lastmod>2017-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://npmrunpodcast.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://runpodcast.github.io/website/post/</loc>
+    <loc>https://npmrunpodcast.com/post/</loc>
+    <lastmod>2017-10-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://runpodcast.github.io/website/post/e021-idea-to-plan-beginner/</loc>
-  </url>
-  
-  <url>
-    <loc>https://runpodcast.github.io/website/tags/</loc>
+    <loc>https://npmrunpodcast.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://runpodcast.github.io/website/</loc>
+    <loc>https://npmrunpodcast.com/</loc>
+    <lastmod>2017-10-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

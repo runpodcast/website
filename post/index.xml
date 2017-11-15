@@ -1,34 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Posts on npm run podcast</title>
-    <link>https://runpodcast.github.io/website/post/</link>
-    <description>Recent content in Posts on npm run podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>npm run podcast</title>
+    <atom:link href="https://npmrunpodcast.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://npmrunpodcast.com/</link>
+    <lastBuildDate>Thu, 5 Oct 2017 00:00:00 &#43;0000</lastBuildDate>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
     <language>en-us</language>
-    
-	<atom:link href="https://runpodcast.github.io/website/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Auth entication orization Beginner Intro</title>
-      <link>https://runpodcast.github.io/website/post/e001-auth-beginner/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://runpodcast.github.io/website/post/e001-auth-beginner/</guid>
-      <description>Learn about your &amp;ldquo;auth&amp;rdquo; - both &amp;ldquo;authentication&amp;rdquo; and &amp;ldquo;authorization&amp;rdquo; - some of the pitfalls and best practices about how to make this very important part of your application.
-You need to get this right&amp;hellip; But it&amp;rsquo;s not that hard, these days.
-(more desc. coming)</description>
-    </item>
-    
-    <item>
-      <title>Pre-Code, Roadmaps are better than empty files</title>
-      <link>https://runpodcast.github.io/website/post/e021-idea-to-plan-beginner/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://runpodcast.github.io/website/post/e021-idea-to-plan-beginner/</guid>
-      <description>Stuff</description>
-    </item>
-    
-  </channel>
+    <copyright></copyright>
+    <itunes:subtitle>The best podcast ever</itunes:subtitle>
+    <itunes:author>Alan Blount</itunes:author>
+    <itunes:summary>The HugoCast is the best podcast you&#39;ve ever seen. You will learn everything you ever needed to know about podcasting from the most inspiring experts to ever show up on the whole internet.</itunes:summary>
+    <description>The HugoCast is the best podcast you&#39;ve ever seen. You will learn everything you ever needed to know about podcasting from the most inspiring experts to ever show up on the whole internet.</description>
+    <itunes:owner>
+    <itunes:name>Alan Blount</itunes:name>
+    <itunes:email>Alan.Blount@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://npmrunpodcast.com/img/npmrunpodcast-logo.png" />
+    <itunes:category text="Technology">
+      <itunes:category text="Software How-To" /><itunes:category text="Tech News" /></itunes:category>
+        <item>
+          <title>Auth Entication Orization Beginner Intro</title>
+          <itunes:author> </itunes:author>
+          <itunes:summary>&lt;![CDATA[Auth.entication.orization. - Beginner/Intro]></itunes:summary>
+          <description>&lt;![CDATA[Auth.entication.orization. - Beginner/Intro]></description>
+          <enclosure url="https://runpodcast.github.io/website/post/0.1.1-auth-beginner.m4a" length="999" type="audio/mpeg" />
+          <guid>https://runpodcast.github.io/website/post/0.1.1-auth-beginner.m4a</guid>
+          <link>https://npmrunpodcast.com/post/e011-auth-beginner/</link>
+          <pubDate>Thu, 05 Oct 2017 00:00:00 +0000 </pubDate><itunes:duration>1:08:22</itunes:duration><itunes:explicit>no</itunes:explicit></item>
+        <item>
+          <title>Auth Entication Orization Mid Level</title>
+          <itunes:author> </itunes:author>
+          <itunes:summary>&lt;![CDATA[Auth.entication.orization. - Mid]></itunes:summary>
+          <description>&lt;![CDATA[Auth.entication.orization. - Mid]></description>
+          <enclosure url="https://runpodcast.github.io/website/post/0.1.2-auth-mid.mp3" length="999" type="audio/mpeg" />
+          <guid>https://runpodcast.github.io/website/post/0.1.2-auth-mid.mp3</guid>
+          <link>https://npmrunpodcast.com/post/e012-auth-mid/</link>
+          <pubDate>Thu, 05 Oct 2017 00:00:00 +0000 </pubDate><itunes:duration>1:08:22</itunes:duration><itunes:explicit>no</itunes:explicit></item>
+        <item>
+          <title>Auth Entication Orization Sr Level</title>
+          <itunes:author> </itunes:author>
+          <itunes:summary>&lt;![CDATA[Auth.entication.orization. - Sr]></itunes:summary>
+          <description>&lt;![CDATA[Auth.entication.orization. - Sr]></description>
+          <enclosure url="https://runpodcast.github.io/website/post/0.1.3-auth-sr.mp3" length="999" type="audio/mpeg" />
+          <guid>https://runpodcast.github.io/website/post/0.1.3-auth-sr.mp3</guid>
+          <link>https://npmrunpodcast.com/post/e013-auth-sr/</link>
+          <pubDate>Thu, 05 Oct 2017 00:00:00 +0000 </pubDate><itunes:duration>1:08:22</itunes:duration><itunes:explicit>no</itunes:explicit></item>
+        <item>
+          <title>Pre-Code, Roadmaps Are Better Than Empty Files</title>
+          <itunes:author> </itunes:author>
+          <itunes:summary>&lt;![CDATA[Idea to Plan (pre code)]></itunes:summary>
+          <description>&lt;![CDATA[Idea to Plan (pre code)]></description>
+          <enclosure url="https://runpodcast.github.io/website/post/0.2.1-idea-to-plan-beginner.mp3" length="999" type="audio/mpeg" />
+          <guid>https://runpodcast.github.io/website/post/0.2.1-idea-to-plan-beginner.mp3</guid>
+          <link>https://npmrunpodcast.com/post/e021-idea-to-plan-beginner/</link>
+          <pubDate>Thu, 05 Oct 2017 00:00:00 +0000 </pubDate><itunes:duration>0:32:00</itunes:duration><itunes:explicit>no</itunes:explicit></item></channel>
 </rss>
